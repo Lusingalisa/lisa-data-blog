@@ -4,7 +4,7 @@ export default function Home(){
   let second_number=7;
   let sum = first_number+second_number
 
-  let username="Howard King"
+  let username="John Doe"
   return( 
   <div>
     <h1>DATA SCIENCE FOR AFRICA</h1>
