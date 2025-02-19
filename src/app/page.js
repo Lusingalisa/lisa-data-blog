@@ -5,6 +5,7 @@ export default function Home(){
   let sum = first_number+second_number
 
   let username="John Doe"
+  let username2="Maria Sky"
   return( 
   <div>
     <h1>DATA SCIENCE FOR AFRICA</h1>
@@ -14,6 +15,7 @@ export default function Home(){
     <br/>
     <em>{sum}</em>
     <p>Greetings {username} </p>
+    <p>Greetings {username2} </p>
   </div>
   )
 }
