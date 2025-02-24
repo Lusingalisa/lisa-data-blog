@@ -8,11 +8,12 @@ export default function Home(){
   let username2="Maria Sky"
   return( 
   <div style={{
-    color:"red", 
+    color:"black", 
     backgroundColor: "#5ef2cd", 
     border:"10px solid black", 
     padding: "10px", 
-    margin:"50px"}}>
+    margin:"50px",
+    borderRadius:"20px"}}>
     <h1>DATA SCIENCE FOR AFRICA</h1>
     <h2>An initiative for 2025</h2>
     <p>Welcome to our website</p>
