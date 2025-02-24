@@ -2,7 +2,7 @@ export default function ChapterCard(props){
     let ourStyles = {
         color:"black", 
         backgroundColor: "#5ef2cd", 
-        border:"10px solid black", 
+        border:"5px dashed black", 
         padding: "10px", 
         margin:"50px",
         borderRadius:"20px"
