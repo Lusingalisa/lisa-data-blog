@@ -1,29 +1,29 @@
+import ChapterCard from "./components/ChapterCard"
 export default function Home(){
 
-  let ourStyles = {
-    color:"black", 
-    backgroundColor: "#5ef2cd", 
-    border:"10px solid black", 
-    padding: "10px", 
-    margin:"50px",
-    borderRadius:"20px"
-  }
 
   return(
     <div>
-    <div style={ourStyles}>
-      <h2>DATA SCIENCE</h2>
-      <h3>data the new oil</h3>
-      <p>Join our data science club to explore the fascinating world of data analysis, machine learning</p>
+      <ChapterCard
+      title={"DATA SCIENCE"}
+      subtitle={"data the new oil"}
+      content={"Join our data science club to explore the fascinating world of data analysis, machine learning"}
+      />
+
+      <ChapterCard
+       title={"CYBER SECURITY"}
+       subtitle={"Guardians of the byte"}
+       content={"Join our Cyber security club to delve into the critical field of protecting"}
+      />
+
+      <ChapterCard
+       title={"ROBOTICS"}
+       subtitle={"We make nice bots"}
+       content={"Join our Robotics club to delve into the critical field of protecting"}
+      />
 
     </div>
-    <div style={ourStyles}>
-    <h2>CYBER SECURITY</h2>
-    <h3>Guardians of the bytes</h3>
-    <p>Join our data science club to explore the fascinating world of data analysis, machine learning</p>
 
-  </div>
-  </div>
   )
 }
   
