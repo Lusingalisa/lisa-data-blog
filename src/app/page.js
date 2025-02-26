@@ -23,12 +23,26 @@ export default function Home(){
     <div>
       {associationChapters.map(function(chapter,index){
         return (
-          <ChapterCard
-           key={index}
-           title={chapter.title}
-           subtitle={chapter.subtitle}
-           content={chapter.content}
+          <div style={{margin:"50px"}}>
+          <TitleCard
+          associationName={"CSE ASSOCIATION"}
+          departmentName={"Department of Computing and Technology"}
           />
+          <TitleCard
+          associationName={"LAW SOCIETY"}
+          departmentName={"Department of Law"}
+          />
+          {associationChapters.map(function(chapter,index){
+            return(
+              <ChapterCard
+              key={index}
+              title={chapter.title}
+              subtitle={chapter.subtitle}
+              content={chapter.content}
+              />
+            )
+          })}
+        </div>
         )
       })}
       
