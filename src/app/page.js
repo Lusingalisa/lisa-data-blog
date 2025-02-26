@@ -1,5 +1,5 @@
 import ChapterCard from "./components/ChapterCard"
-
+import TitleCard from "./components/TitleCard"
 export default function Home(){
   let associationChapters =[
     {
@@ -21,8 +21,6 @@ export default function Home(){
 
   return(
     <div>
-      {associationChapters.map(function(chapter,index){
-        return (
           <div style={{margin:"50px"}}>
           <TitleCard
           associationName={"CSE ASSOCIATION"}
@@ -43,8 +41,6 @@ export default function Home(){
             )
           })}
         </div>
-        )
-      })}
       
     </div>
 
